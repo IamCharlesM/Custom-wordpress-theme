@@ -2,3 +2,7 @@
 Theme Name: Test Theme
 Author: Charles McGregory
 */
+
+body {
+  background: red;
+}
