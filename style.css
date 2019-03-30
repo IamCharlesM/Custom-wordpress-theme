@@ -6,3 +6,9 @@ Author: Charles McGregory
 body {
   background: red;
 }
+
+header {
+  background: white;
+  width: 100%;
+  height: 50px;
+}
