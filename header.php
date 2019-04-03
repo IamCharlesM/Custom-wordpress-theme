@@ -9,4 +9,16 @@
 
 <header class='sticky-top'>
 
+<div class="container">
+  
+    <?php wp_nav_menu(
+        array(
+            'theme_location' => 'top-menu',
+            'menu_class' => 'navigation'
+        )
+    )
+    ?>
+</div>
+    
+
 </header>
