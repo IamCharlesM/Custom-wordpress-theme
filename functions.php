@@ -38,6 +38,7 @@ function loadjs()
 add_action('wp_enqueue_scripts', 'loadjs');
 
 add_theme_support('menus');
+add_theme_support('post-thumbnails');
 
 
 register_nav_menus(
