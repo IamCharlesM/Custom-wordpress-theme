@@ -47,3 +47,6 @@ register_nav_menus(
         'footer-menu' => __('Footer Menu', 'theme')
     )
 );
+
+add_image_size('smallest', 300, 300, true);
+add_image_size('largest', 800, 800, true);
